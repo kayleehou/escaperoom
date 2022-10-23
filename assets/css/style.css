@@ -482,7 +482,7 @@ pre code { font-size: 15px !important; }
 
 p code { font-size: 19px; }
 
-html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #8670b5 !important; }
+html, body, input, textarea, select, button { color: rgba(255, 255, 255, 0.87) !important; background-color: #85a9db !important; }
 
 a { color: white !important; }
 
@@ -490,11 +490,11 @@ a:hover { color: rgba(255, 255, 255, 0.87) !important; }
 
 .site-title, .site-title:visited, .site-nav, .page-link { color: rgba(255, 255, 255, 0.87) !important; }
 
-.site-nav { background-color: #8670b5; border-color: #9784bf; }
+.site-nav { background-color: #85a9db; border-color: #96b5e0; }
 
-* { scrollbar-color: #8670b5 #9784bf; }
+* { scrollbar-color: #85a9db #96b5e0; }
 
-pre, code { border-color: #9784bf; background-color: #8c77b9; }
+pre, code { border-color: #96b5e0; background-color: #8baddd; }
 
 .page-description { color: rgba(255, 255, 255, 0.69); }
 
@@ -502,19 +502,19 @@ pre, code { border-color: #9784bf; background-color: #8c77b9; }
 
 .post-content p, .post-content li { color: rgba(255, 255, 255, 0.69); }
 
-.btn { background-color: #8c77b9 !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #9784bf !important; }
+.btn { background-color: #8baddd !important; color: rgba(255, 255, 255, 0.87) !important; border-color: #96b5e0 !important; }
 
-.btn:hover { background-color: #8670b5 !important; }
+.btn:hover { background-color: #85a9db !important; }
 
-table th { background-color: #8c77b9; border-color: #9784bf; color: rgba(255, 255, 255, 0.87); }
+table th { background-color: #8baddd; border-color: #96b5e0; color: rgba(255, 255, 255, 0.87); }
 
-table td { background-color: #8670b5; border-color: #9784bf; color: rgba(255, 255, 255, 0.69); }
+table td { background-color: #85a9db; border-color: #96b5e0; color: rgba(255, 255, 255, 0.69); }
 
-.flash { color: #8670b5 !important; filter: brightness(80%); }
+.flash { color: #85a9db !important; filter: brightness(80%); }
 
 canvas { filter: invert(100%); }
 
-.post-list > li > div { box-shadow: none !important; background-color: #8c77b9; border: none !important; }
+.post-list > li > div { box-shadow: none !important; background-color: #8baddd; border: none !important; }
 
 li .post-meta-description { color: rgba(255, 255, 255, 0.69) !important; }
 
