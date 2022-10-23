@@ -31,7 +31,7 @@ permalink: /frontend/jokes
   const BOOHOO = "boohoo";
 
   // prepare fetch urls
-  const url = "https://flask.nighthawkcodingsociety.com/api/jokes"; // put our flask link here
+  const url = "https://nighthawkcoders.github.io/APCSP/data/jokes"; // put our flask link here
   const like_url = url + "/like/";  // haha reaction
   const jeer_url = url + "/jeer/";  // boohoo reaction
 
