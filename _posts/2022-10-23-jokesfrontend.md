@@ -3,8 +3,9 @@ title: Fetch of Backend Jokes
 layout: default
 description: An example of Frontend talking to Backend Python application serving jokes.  This example provides the ability to react to the Joke (haha or boohoo).
 tags: [API]
+permalink: /frontend/jokes
 ---
-
+{% include nav_frontend.html %}
 <!-- HTML table fragment for page -->
 <table>
   <thead>
