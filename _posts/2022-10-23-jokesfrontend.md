@@ -30,7 +30,7 @@ tags: [API]
   const BOOHOO = "boohoo";
 
   // prepare fetch urls
-  const url = "http://escaperoom.nighthawkcodescrums.gq/api/jokes"; // put our flask link here
+  const url = "http://escaperoom.nighthawkcodescrums.gq/api/jokes"; 
   const like_url = url + "/like/";  // haha reaction
   const jeer_url = url + "/jeer/";  // boohoo reaction
 
