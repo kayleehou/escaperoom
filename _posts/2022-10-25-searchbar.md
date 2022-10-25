@@ -46,6 +46,7 @@ body {
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
+  background-color: #fff;
 }
 
 /* Style the navigation menu inside the left column */
@@ -63,7 +64,7 @@ body {
 }
 
 #myMenu li a:hover {
-  background-color: #eee;
+  background-color: #4f5359;
 }
 </style>
 </head>
