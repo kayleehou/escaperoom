@@ -64,7 +64,7 @@ body {
 }
 
 #myMenu li a:hover {
-  background-color: #eee;
+  background-color: #4f5359;
 }
 </style>
 </head>
