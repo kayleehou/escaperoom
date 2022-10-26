@@ -70,7 +70,7 @@ body {
 <p>Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
 <div class="row">
-  <div class="left" style="background-color:#3d9c5c;">
+  <div class="left" style="background-color:#4f5359;">
     <h2>Menu</h2>
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
     <ul id="myMenu">
@@ -85,7 +85,7 @@ body {
     </ul>
   </div>
   
-  <div class="right" style="background-color:#3d9c5c;">
+  <div class="right" style="background-color:#4f5359;">
     <h2>Learn More!</h2>
     <p>Over here we'll share any comics with that character or comics similar to the one you searched. </p>
   </div>
