@@ -5,7 +5,7 @@ tags: [API]
 permalink: searchbar
 ---
 
-<p style="font-family:'Courier New'">Search</p>
+<h1 style="font-family:'Courier New'">Search</h1>
 
 <html>
 <head>
