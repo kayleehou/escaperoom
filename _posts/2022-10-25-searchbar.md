@@ -66,7 +66,6 @@ body {
 </style>
 </head>
 <body>
-
 <h1 style="font-family:'Courier New'">Search</h1>
 <p>Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
