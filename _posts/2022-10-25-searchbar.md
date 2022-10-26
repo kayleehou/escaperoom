@@ -46,7 +46,6 @@ body {
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
-  background-color: #fff;
 }
 
 /* Style the navigation menu inside the left column */
