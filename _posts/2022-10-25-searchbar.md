@@ -45,8 +45,8 @@ body {
   width: 100%;
   font-size: 18px;
   padding: 11px;
-  border: 1px solid #ddd;
-  background-color: #fff;
+  border: 1px solid #000301;
+  background-color: white
 }
 
 /* Style the navigation menu inside the left column */
