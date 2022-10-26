@@ -5,8 +5,6 @@ tags: [API]
 permalink: searchbar
 ---
 
-# Searchbar
-
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +44,6 @@ body {
   font-size: 18px;
   padding: 11px;
   border: 1px solid #ddd;
-  background-color: #fff;
 }
 
 /* Style the navigation menu inside the left column */
@@ -70,32 +67,29 @@ body {
 </head>
 <body>
 
-<h2>Search Menu</h2>
-<p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+<h1 style="font-family:'Courier New'">Search</h1>
+<p>Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
 <div class="row">
-  <div class="left" style="background-color:#000301;">
+  <div class="left" style="background-color:#3d9c5c;">
     <h2>Menu</h2>
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
     <ul id="myMenu">
       <li><a href="https://kayleehou.github.io/escaperoom/markdown/2022/10/09/programdesign.html">program design</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-      <li><a href="#">PHP</a></li>
-      <li><a href="#">Python</a></li>
-      <li><a href="#">jQuery</a></li>
-      <li><a href="#">SQL</a></li>
-      <li><a href="#">Bootstrap</a></li>
-      <li><a href="#">Node.js</a></li>
+      <li><a href="#">Iron Man</a></li>
+      <li><a href="#">Spider Man</a></li>
+      <li><a href="#">Thor</a></li>
+      <li><a href="#">Loki</a></li>
+      <li><a href="#">Black Widow</a></li>
+      <li><a href="#">Scarlet Witch</a></li>
+      <li><a href="#">Dr. Strange</a></li>
+      <li><a href="#">Ant Man</a></li>
     </ul>
   </div>
   
   <div class="right" style="background-color:#000301;">
-    <h2>Page Content</h2>
-    <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
-    <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
-    <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
-    <p>Some text..</p>
+    <h2>Learn More!</h2>
+    <p>Over here we'll share any comics with that character or comics similar to the one you searched. </p>
   </div>
 </div>
 
