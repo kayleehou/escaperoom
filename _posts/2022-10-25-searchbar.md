@@ -75,7 +75,6 @@ body {
     <h2>Menu</h2>
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
     <ul id="myMenu">
-      <li><a href="https://kayleehou.github.io/escaperoom/markdown/2022/10/09/programdesign.html">program design</a></li>
       <li><a href="#">Iron Man</a></li>
       <li><a href="#">Spider Man</a></li>
       <li><a href="#">Thor</a></li>
