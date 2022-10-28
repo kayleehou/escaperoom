@@ -70,6 +70,8 @@ body {
 <h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
 <p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
+![]({{site.baseurl}}/images/ Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp "Iron Man")
+
 <div class="row">
   <div class="left" style="background-color:#4f5359;">
     <h2>Menu</h2>
