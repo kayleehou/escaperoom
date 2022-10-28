@@ -70,8 +70,7 @@ body {
 <h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
 <p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
-<div img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmarvel.fandom.com%2Fwiki%2FAnthony_Stark_(Earth-616)&psig=AOvVaw35kR48Gk-szgT_8u9f6PZV&ust=1667075913466000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjkjO_jg_sCFQAAAAAdAAAAABAD" alt="IronMan" style="width:100px;height:100px;position:relative; left:80px; top:2px;">
-</div>
+![]({{site.baseurl}}/images/Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp "Iron Man")
 
 <div class="row">
   <div class="left" style="background-color:#4f5359;">
