@@ -71,7 +71,7 @@ body {
 <p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
 
-<img src="marvel.jpg" alt="marvel" width="500" height="200">
+![]({{ site.baseurl }}/images/marvel.jpg "Marvel")
 
 
 
