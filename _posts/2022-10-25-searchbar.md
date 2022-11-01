@@ -70,8 +70,8 @@ body {
 <h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
 <p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
-<<<<<<< HEAD
-<div img src="marvel.jpg" alt="marvel" width="500" height="200">
+
+<img src="marvel.jpg" alt="marvel" width="500" height="200">
 
 
 
