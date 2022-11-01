@@ -74,8 +74,7 @@ body {
 <div img src="marvel.jpg" alt="marvel" width="500" height="200">
 
 
-=======
->>>>>>> ad914412f990b50878d84b0e1ce8451eb6440d4a
+
 <div class="row">
   <div class="left" style="background-color:#4f5359;">
     <h2>Menu</h2>
