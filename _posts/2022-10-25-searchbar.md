@@ -61,21 +61,17 @@ body {
 }
 
 #myMenu li a:hover {
-  background-color: #2d2e2e;
+  background-color: #4f5359;
 }
 </style>
 </head>
 <body>
-=======
-<h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
-<p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
-<div img src="Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp" alt="IronMan" style="width:100px;height:100px;position:relative; left:80px; top:2px;">
-         This div has relative positioning.
-</div>
+<h1 style="font-family:'Courier New'">Search</h1>
+<p>Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
 <div class="row">
-  <div class="left" style="background-color:#4f5359;">
+  <div class="left" style="background-color:#3d9c5c;">
     <h2>Menu</h2>
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
     <ul id="myMenu">
@@ -90,7 +86,7 @@ body {
     </ul>
   </div>
   
-  <div class="right" style="background-color:#4f5359;">
+  <div class="right" style="background-color:#3d9c5c;">
     <h2>Learn More!</h2>
     <p>Over here we'll share any comics with that character or comics similar to the one you searched. </p>
   </div>
