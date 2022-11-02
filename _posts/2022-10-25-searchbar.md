@@ -83,7 +83,7 @@ img {
 </head>
 <body>
 
-<img src="https://github.com/kayleehou/escaperoom/blob/master/images/Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp?raw=true" width="1000" height="1500" />
+<img src="https://github.com/kayleehou/escaperoom/blob/master/images/Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp?raw=true" width="250" height="500" />
 
 </body>
 
