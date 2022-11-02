@@ -88,15 +88,15 @@ img {
 </head>
 <body>
 
-<<<<<<< HEAD
-=======
-<img src="https://github.com/kayleehou/escaperoom/blob/master/images/Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp?raw=true" width="250" height="500" />
+
+<img src="https://github.com/kayleehou/escaperoom/blob/master/images/marvel.jpg?raw=true" width="500" height="250" />
 
 </body>
 
 
 
->>>>>>> fde83a653b5db66898fd278d804698283293e8c4
+
+
 <div class="row">
   <div class="left" style="background-color:#3d9c5c;">
     <h2>Menu</h2>
