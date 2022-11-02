@@ -4,21 +4,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Fetch of Backend MCU | escaperoom</title>
+<title>Searchbar | escaperoom</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Fetch of Backend MCU" />
+<meta property="og:title" content="Searchbar" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Scrum Process and Team Outline" />
-<meta property="og:description" content="Scrum Process and Team Outline" />
-<link rel="canonical" href="https://nighthawkcoders.github.io/escaperoom/frontend/jokes" />
-<meta property="og:url" content="https://nighthawkcoders.github.io/escaperoom/frontend/jokes" />
+<meta name="description" content="welcome to our group’s fastpages for our escape room project!" />
+<meta property="og:description" content="welcome to our group’s fastpages for our escape room project!" />
+<link rel="canonical" href="https://nighthawkcoders.github.io/escaperoom/searchbar%20copy" />
+<meta property="og:url" content="https://nighthawkcoders.github.io/escaperoom/searchbar%20copy" />
 <meta property="og:site_name" content="escaperoom" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-10-23T00:00:00-05:00" />
+<meta property="article:published_time" content="2022-10-31T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Fetch of Backend MCU" />
+<meta property="twitter:title" content="Searchbar" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-23T00:00:00-05:00","datePublished":"2022-10-23T00:00:00-05:00","description":"Scrum Process and Team Outline","headline":"Fetch of Backend MCU","mainEntityOfPage":{"@type":"WebPage","@id":"https://nighthawkcoders.github.io/escaperoom/frontend/jokes"},"url":"https://nighthawkcoders.github.io/escaperoom/frontend/jokes"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-31T00:00:00-05:00","datePublished":"2022-10-31T00:00:00-05:00","description":"welcome to our group’s fastpages for our escape room project!","headline":"Searchbar","mainEntityOfPage":{"@type":"WebPage","@id":"https://nighthawkcoders.github.io/escaperoom/searchbar%20copy"},"url":"https://nighthawkcoders.github.io/escaperoom/searchbar%20copy"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/escaperoom/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nighthawkcoders.github.io/escaperoom/feed.xml" title="escaperoom" /><link rel="shortcut icon" type="image/x-icon" href="/escaperoom/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -65,53 +65,119 @@ window.onload = wrap_img;
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/escaperoom/about/">About</a><a class="page-link" href="/escaperoom/_pages/frontend.html">Frontend</a><a class="page-link" href="/escaperoom/search/">Search</a><a class="page-link" href="/escaperoom/categories/">Tags</a></div>
+        <div class="trigger"><a class="page-link" href="/escaperoom/about/">About</a><a class="page-link" href="/escaperoom/search/">Search</a><a class="page-link" href="/escaperoom/categories/">Tags</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <table>
-    <tr>
-        <td><img src="/escaperoom//images/favicon.ico" height="60" title="Frontend" alt="" /></td>
-        <td><a href="/escaperoom/frontend/scrum">Scrum Process and Team Outline</a></td>
-    </tr>
-</table>
+        <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<!-- Script is layed out in a sequence (without a function) and will execute when page is loaded -->
-<script>
+* {
+  box-sizing: border-box;
+}
 
-  // prepare HTML defined "result" container for new output
-  const resultContainer = document.getElementById("result");
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
 
-  // prepare fetch urls
-  const url = "https://escaperoom.nighthawkcodingscrums.gq"; // put our flask link here
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
 
-  // prepare fetch GET options
-  const options = {
-    method: 'GET', // *GET, POST, PUT, DELETE, etc.
-    mode: 'cors', // no-cors, *cors, same-origin
-    cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
-    credentials: 'omit', // include, *same-origin, omit
-    headers: {
-      'Content-Type': 'application/json'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-  };
-  // prepare fetch PUT options, clones with JS Spread Operator (...)
-  const put_options = {...options, method: 'PUT'}; // clones and replaces method
+.left h2 {
+  padding-left: 8px;
+}
 
-  // fetch the API
-  fetch(url, options)
-    // response is a RESTful "promise" on any successful fetch
-    .then(response => {
-      // check for response errors
-      if (response.status !== 200) {
-          error('GET API response failure: ' + response.status);
-          return;
-      }
-      // valid response will have JSON data
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #2d2e2e;
+}
+</style>
+</head>
+<body>
+=======
+<h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
+<p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
+
+<div img="" src="Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp" alt="IronMan" style="width:100px;height:100px;position:relative; left:80px; top:2px;">
+         This div has relative positioning.
+</div>
+
+<div class="row">
+  <div class="left" style="background-color:#4f5359;">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" />
+    <ul id="myMenu">
+   &lt;1--- my js generate code right here -----&gt;
       
+    </ul>
+  </div>
+  <script> // my fetch code will be stored here 
+   // prepare HTML defined "myMenu" container for new output
+   const myMenuContainer = document.getElementById("myMenu");
+  </script>
+  <div class="right" style="background-color:#4f5359;">
+    <h2>Learn More!</h2>
+    <p>Over here we'll share any comics with that character or comics similar to the one you searched. </p>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
 </script>
+
+</body>
+</html>
 
       </div>
     </main><footer class="site-footer h-card">

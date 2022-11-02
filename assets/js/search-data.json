@@ -2,8 +2,30 @@
   
     
         "post0": {
+            "title": "Mcuhome",
+            "content": ". . Click for Search Bar",
+            "url": "https://nighthawkcoders.github.io/escaperoom/2022/11/02/mcuhome.html",
+            "relUrl": "/2022/11/02/mcuhome.html",
+            "date": " • Nov 2, 2022"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Searchbar",
-            "content": ". Marvel Searchbar . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . . Menu . Iron Man | Spider Man | Thor | Loki | Black Widow | Scarlet Witch | Dr. Strange | Ant Man | . Learn More! . Over here we&#39;ll share any comics with that character or comics similar to the one you searched. . .",
+            "content": ". ======= Marvel Searchbar . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . This div has relative positioning. Menu . &lt;1 my js generate code right here --&gt; . Learn More! . Over here we&#39;ll share any comics with that character or comics similar to the one you searched. . .",
+            "url": "https://nighthawkcoders.github.io/escaperoom/searchbar%20copy",
+            "relUrl": "/searchbar copy",
+            "date": " • Oct 31, 2022"
+        }
+        
+    
+  
+    
+        ,"post2": {
+            "title": "Searchbar",
+            "content": ". &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD Search . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . ======= Marvel Searchbar . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . . Menu . Iron Man | Spider Man | Thor | Loki | Black Widow | Scarlet Witch | Dr. Strange | Ant Man | . Learn More! . Over here we&#39;ll share any comics with that character or comics similar to the one you searched. . .",
             "url": "https://nighthawkcoders.github.io/escaperoom/searchbar",
             "relUrl": "/searchbar",
             "date": " • Oct 25, 2022"
@@ -12,18 +34,18 @@
     
   
     
-        ,"post1": {
-            "title": "Fetch of Backend MCU",
-            "content": "| Scrum Process and Team Outline | .",
-            "url": "https://nighthawkcoders.github.io/escaperoom/frontend/jokes",
-            "relUrl": "/frontend/jokes",
+        ,"post3": {
+            "title": "Fetch of Python data using RapidAPI",
+            "content": "Review Frontend Code, Review Backend Code . Time All-time Cases Recorded Deaths Active Cases . | | | | Country All-time Cases Recorded Deaths Active Cases .",
+            "url": "https://nighthawkcoders.github.io/escaperoom/data/covid",
+            "relUrl": "/data/covid",
             "date": " • Oct 23, 2022"
         }
         
     
   
     
-        ,"post2": {
+        ,"post4": {
             "title": "Fetch of Backend Jokes",
             "content": "Joke HaHa Boohoo .",
             "url": "https://nighthawkcoders.github.io/escaperoom/2022/10/23/jokesfrontend.html",
@@ -34,7 +56,7 @@
     
   
     
-        ,"post3": {
+        ,"post5": {
             "title": "Fixing Merge Conflicts",
             "content": ".",
             "url": "https://nighthawkcoders.github.io/escaperoom/collegeboard/2022/10/10/mergeconflicts.html",
@@ -45,7 +67,7 @@
     
   
     
-        ,"post4": {
+        ,"post6": {
             "title": "Program Design",
             "content": "Program Design . Here is a visualization of what our project will look like: . Project Inspo . Since we are doing a mcu themed escape room, I made a collage of pictures that inspired me. I did research on what other escape games looked like and compiled them: . How we will incorporate CB Critera . link . Brain Write and Program Purpose . link . What we are going to and not going to do: . link .",
             "url": "https://nighthawkcoders.github.io/escaperoom/markdown/2022/10/09/programdesign.html",
@@ -56,11 +78,11 @@
     
   
     
-        ,"post5": {
+        ,"post7": {
             "title": "Scrum Process Outline and Team Project",
-            "content": "| Scrum Process and Team Outline | . Scrum Process . . Explanation in more detail: . understand instructions- this means understanding the week’s assignments and making sure we meet all the requirements | assign work to each person- based on roles, we assign individual work as well as group work | while doing the work we input onto scrum board so that it is easily accessible | collaborate during class by using think pair share, we may also need to do our own research | sprint/reflect on scores- after live grading, take time to debrief what we can improve on and what we did well, then start preparing again for next week | we will also meet daily to give updates! . Roles . Our group decided we wanted to follow this outline before our sprint, we split up the scrum team roles as followed: . scrum master: Kaylee – organize scrum board and make sure agile is followed, track issues | Backend Developer: Trey – build and maintain mechanisms that process data and perform actions, builds what you can’t see | Frontend Developer: Nico – builds front end portion of web applications which is what users see and interact with | DevOps: Ben – introduces tools and processes needed for coding and deployment to maintenance and updates. | . Agile Notes . Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. | Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage. | Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale. | Business people and developers must work together daily throughout the project. | Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done. | The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. | Working software is the primary measure of progress. | Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. | Continuous attention to technical excellence and good design enhances agility. | Simplicity–the art of maximizing the amount of work not done–is essential. | The best architectures, requirements, and designs emerge from self-organizing teams. | At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly. | TEAM PROJECT . project on flask: . draft of code . program purpose .",
-            "url": "https://nighthawkcoders.github.io/escaperoom/frontend/scrum",
-            "relUrl": "/frontend/scrum",
+            "content": "Scrum Process . . Explanation in more detail: . understand instructions- this means understanding the week’s assignments and making sure we meet all the requirements | assign work to each person- based on roles, we assign individual work as well as group work | while doing the work we input onto scrum board so that it is easily accessible | collaborate during class by using think pair share, we may also need to do our own research | sprint/reflect on scores- after live grading, take time to debrief what we can improve on and what we did well, then start preparing again for next week | we will also meet daily to give updates! . Roles . Our group decided we wanted to follow this outline before our sprint, we split up the scrum team roles as followed: . scrum master: Kaylee – organize scrum board and make sure agile is followed, track issues | Backend Developer: Trey – build and maintain mechanisms that process data and perform actions, builds what you can’t see | Frontend Developer: Nico – builds front end portion of web applications which is what users see and interact with | DevOps: Ben – introduces tools and processes needed for coding and deployment to maintenance and updates. | . Agile Notes . Our highest priority is to satisfy the customer through early and continuous delivery of valuable software. | Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage. | Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale. | Business people and developers must work together daily throughout the project. | Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done. | The most efficient and effective method of conveying information to and within a development team is face-to-face conversation. | Working software is the primary measure of progress. | Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely. | Continuous attention to technical excellence and good design enhances agility. | Simplicity–the art of maximizing the amount of work not done–is essential. | The best architectures, requirements, and designs emerge from self-organizing teams. | At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly. | TEAM PROJECT . project on flask: . draft of code . program purpose .",
+            "url": "https://nighthawkcoders.github.io/escaperoom/scrum/2022/09/25/scrumprocess.html",
+            "relUrl": "/scrum/2022/09/25/scrumprocess.html",
             "date": " • Sep 25, 2022"
         }
         
@@ -82,17 +104,6 @@
   
 
   
-      ,"page2": {
-          "title": "Frontend",
-          "content": "Submenu . | Scrum Process and Team Outline | .",
-          "url": "https://nighthawkcoders.github.io/escaperoom/_pages/frontend.html",
-          "relUrl": "/_pages/frontend.html",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -114,7 +125,7 @@
   
 
   
-      ,"page11": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nighthawkcoders.github.io/escaperoom/robots.txt",

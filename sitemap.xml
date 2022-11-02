@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://nighthawkcoders.github.io/escaperoom/frontend/scrum</loc>
+<loc>https://nighthawkcoders.github.io/escaperoom/scrum/2022/09/25/scrumprocess.html</loc>
 <lastmod>2022-09-25T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -17,7 +17,7 @@
 <lastmod>2022-10-23T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://nighthawkcoders.github.io/escaperoom/frontend/jokes</loc>
+<loc>https://nighthawkcoders.github.io/escaperoom/data/covid</loc>
 <lastmod>2022-10-23T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -25,10 +25,15 @@
 <lastmod>2022-10-25T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://nighthawkcoders.github.io/escaperoom/about/</loc>
+<loc>https://nighthawkcoders.github.io/escaperoom/searchbar%20copy</loc>
+<lastmod>2022-10-31T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://nighthawkcoders.github.io/escaperoom/_pages/frontend.html</loc>
+<loc>https://nighthawkcoders.github.io/escaperoom/2022/11/02/mcuhome.html</loc>
+<lastmod>2022-11-02T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://nighthawkcoders.github.io/escaperoom/about/</loc>
 </url>
 <url>
 <loc>https://nighthawkcoders.github.io/escaperoom/</loc>
