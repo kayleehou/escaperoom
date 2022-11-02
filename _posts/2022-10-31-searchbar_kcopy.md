@@ -2,7 +2,7 @@
 title: Searchbar
 layout: default
 tags: [API]
-permalink: searchbar
+permalink: searchbar copy 
 ---
 
 <html>
@@ -61,50 +61,33 @@ body {
 }
 
 #myMenu li a:hover {
-  background-color: #4f5359;
+  background-color: #2d2e2e;
 }
 </style>
 </head>
 <body>
-<<<<<<< HEAD
-
-<h1 style="font-family:'Courier New'">Search</h1>
-<p>Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 =======
-
 <h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
 <p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
-
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-</head>
-<body>
+<div img src="Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp" alt="IronMan" style="width:100px;height:100px;position:relative; left:80px; top:2px;">
+         This div has relative positioning.
+</div>
 
 <div class="row">
-  <div class="left" style="background-color:#3d9c5c;">
+  <div class="left" style="background-color:#4f5359;">
     <h2>Menu</h2>
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
     <ul id="myMenu">
-      <li><a href="#">Iron Man</a></li>
-      <li><a href="#">Spider Man</a></li>
-      <li><a href="#">Thor</a></li>
-      <li><a href="#">Loki</a></li>
-      <li><a href="#">Black Widow</a></li>
-      <li><a href="#">Scarlet Witch</a></li>
-      <li><a href="#">Dr. Strange</a></li>
-      <li><a href="#">Ant Man</a></li>
+   <1--- my js generate code right here ----->
+      
     </ul>
   </div>
-  
-  <div class="right" style="background-color:#3d9c5c;">
+  <script> // my fetch code will be stored here 
+   // prepare HTML defined "myMenu" container for new output
+   const myMenuContainer = document.getElementById("myMenu");
+  </script>
+  <div class="right" style="background-color:#4f5359;">
     <h2>Learn More!</h2>
     <p>Over here we'll share any comics with that character or comics similar to the one you searched. </p>
   </div>
