@@ -6,11 +6,11 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Marvel Searchbar
-description: welcome to our group's fastpages for our Marvel project!
+title: escaperoom
+description: welcome to our group's fastpages for our escape room project!
 github_username: kayleehou
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "Mcu_Searchbar"
+github_repo: "escaperoom"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
@@ -34,7 +34,7 @@ url: "https://nighthawkcoders.github.io" # the base hostname & protocol for your
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/marvel_searchbar" # the subpath of your site, e.g. "/blog".
+baseurl: "/escaperoom" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
