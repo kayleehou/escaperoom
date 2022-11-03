@@ -103,17 +103,6 @@
   
 
   
-      ,"page7": {
-          "title": "Searchbar",
-          "content": ". &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD Search . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . ======= Marvel Search Bar . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . . &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; fde83a653b5db66898fd278d804698283293e8c4 Menu . Iron Man | Spider Man | Thor | Loki | Black Widow | Scarlet Witch | Dr. Strange | Ant Man | . Learn More! . Happy Searching! . .",
-          "url": "https://nighthawkcoders.github.io/escaperoom/searchbar",
-          "relUrl": "/searchbar",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -125,7 +114,7 @@
   
 
   
-      ,"page12": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nighthawkcoders.github.io/escaperoom/robots.txt",
