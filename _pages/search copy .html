@@ -1,6 +1,6 @@
 ---
+title: MCU Search Bar 
 layout: default
-title: Search Bar Fetch
 search_exclude: true
 ---
 
@@ -82,36 +82,19 @@ img {
 </head>
 <body>
 
-<script>
-  const resultContainer = document.getElementById("result");
-
-  // prepare fetch options
-  const url = "https://flask.nighthawkcodingsociety.com/api/covid/";
-  const headers = {
-    method: 'GET', // *GET, POST, PUT, DELETE, etc.
-    mode: 'cors', // no-cors, *cors, same-origin
-    cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
-    credentials: 'omit', // include, *same-origin, omit
-    headers: {
-      'Content-Type': 'application/json'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-  };
-</script>
-
 <div class="row">
   <div class="left" style="background-color:#3d413e;">
     <h2>Menu</h2>
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
     <ul id="myMenu">
-      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Agents_of_S.H.I.E.L.D.:_The_Chase">Agents of S.H.I.E.L.D.: The Chase</a></li>
+      <!-- <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Agents_of_S.H.I.E.L.D.:_The_Chase">Agents of S.H.I.E.L.D.: The Chase</a></li>
       <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man_-_Scott_Lang:_Small_Time">Ant-Man - Scott Lang: Small Time</a></li>
       <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man_and_the_Wasp_Prelude">Ant-Man and the Wasp Prelude</a></li>
       <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man_Prelude">Ant-Man Prelude</a></li>
       <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man:_Larger_Than_Life">Ant-Man: Larger Than Life</a></li>
       <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Age_of_Ultron_Prelude_-_This_Scepter%27d_Isle">Avengers: Age of Ultron Prelude - This Scepter'd Isle</a></li>
       <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Age_of_Ultron:_Episode_0">Avengers: Age of Ultron: Episode 0</a></li>
-      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Endgame_Prelude">Avengers: Endgame Prelude</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Endgame_Prelude">Avengers: Endgame Prelude</a></li> -->
     </ul>
   </div>
   
@@ -166,3 +149,59 @@ function myFunction() {
 
 </body>
 </html>
+
+<!-- Script is layed out in a sequence (no function) and will execute when page is loaded -->
+<script>
+  // prepare HTML result container for new output
+  const resultContainer = document.getElementById("result");
+
+  // prepare fetch options
+  const url = "https://escaperoom.nighthawkcodescrums.gq/api/MCU/";
+  const headers = {
+    method: 'GET', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'omit', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  };
+
+  // fetch the API
+  fetch(url, headers)
+    // response is a RESTful "promise" on any successful fetch
+    .then(response => {
+      // check for response errors
+      if (response.status !== 200) {
+          const errorMsg = 'Database response error: ' + response.status;
+          console.log(errorMsg);
+          return;
+      }
+      // valid response will have json data
+      response.json().then(data => {
+          console.log(data);
+
+          for (const row of data) {
+            console.log(row);
+
+            // li for each row
+            const li = document.createElement("li"); 
+            
+            // a for each li
+            const a = document.createElement("a");
+            a.setAttribute("href", row.link);
+            a.innerHTML = row.title;
+            li.appendChild(a);
+
+
+            // add li to result
+            resultContainer.appendChild(li);
+          }
+      })
+  })
+  // catch fetch errors (ie ACCESS to server blocked)
+  .catch(err => {
+    console.error(err);
+  });
+</script>
