@@ -4,20 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Tags | escaperoom</title>
+<title>Search Bar Fetch | escaperoom</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="Search Bar Fetch" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="welcome to our group’s fastpages for our escape room project!" />
 <meta property="og:description" content="welcome to our group’s fastpages for our escape room project!" />
-<link rel="canonical" href="https://nighthawkcoders.github.io/escaperoom/categories/" />
-<meta property="og:url" content="https://nighthawkcoders.github.io/escaperoom/categories/" />
+<link rel="canonical" href="https://nighthawkcoders.github.io/escaperoom/_pages/search%20copy.html" />
+<meta property="og:url" content="https://nighthawkcoders.github.io/escaperoom/_pages/search%20copy.html" />
 <meta property="og:site_name" content="escaperoom" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tags" />
+<meta property="twitter:title" content="Search Bar Fetch" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"welcome to our group’s fastpages for our escape room project!","headline":"Tags","url":"https://nighthawkcoders.github.io/escaperoom/categories/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"welcome to our group’s fastpages for our escape room project!","headline":"Search Bar Fetch","url":"https://nighthawkcoders.github.io/escaperoom/_pages/search%20copy.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/escaperoom/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nighthawkcoders.github.io/escaperoom/feed.xml" title="escaperoom" /><link rel="shortcut icon" type="image/x-icon" href="/escaperoom/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -69,69 +69,169 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #4f5359;
+}
+</style>
+</head>
+<body>
+
+<h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
+<p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
 
-<h2>Contents</h2>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
 
-  
-  
-  
+<script>
+  const resultContainer = document.getElementById("result");
 
-  <ul>
-  
-    <li><a href="#C7.0">C7.0</a></li>
-  
-    <li><a href="#collegeboard">collegeboard</a></li>
-  
-    <li><a href="#markdown">markdown</a></li>
-  
-    <li><a href="#scrum">scrum</a></li>
-  
-  </ul>
+  // prepare fetch options
+  const url = "https://flask.nighthawkcodingsociety.com/api/covid/";
+  const headers = {
+    method: 'GET', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'omit', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+  };
+</script>
 
+<div class="row">
+  <div class="left" style="background-color:#3d413e;">
+    <h2>Menu</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Agents_of_S.H.I.E.L.D.:_The_Chase">Agents of S.H.I.E.L.D.: The Chase</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man_-_Scott_Lang:_Small_Time">Ant-Man - Scott Lang: Small Time</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man_and_the_Wasp_Prelude">Ant-Man and the Wasp Prelude</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man_Prelude">Ant-Man Prelude</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man:_Larger_Than_Life">Ant-Man: Larger Than Life</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Age_of_Ultron_Prelude_-_This_Scepter%27d_Isle">Avengers: Age of Ultron Prelude - This Scepter'd Isle</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Age_of_Ultron:_Episode_0">Avengers: Age of Ultron: Episode 0</a></li>
+      <li><a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Endgame_Prelude">Avengers: Endgame Prelude</a></li>
+    </ul>
+  </div>
   
-      <h3 id ="C7.0"><i class="fas fa-tags category-tags-icon"></i></i> C7.0</h3>
-      <a name="C7.0"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/escaperoom/data/covid">Fetch of Python data using RapidAPI</a>  • Oct 23, 2022</p>
-        </article>
-        
-      
-  
-      <h3 id ="collegeboard"><i class="fas fa-tags category-tags-icon"></i></i> collegeboard</h3>
-      <a name="collegeboard"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/escaperoom/collegeboard/2022/10/10/mergeconflicts.html">Fixing Merge Conflicts</a>  • Oct 10, 2022</p>
-        </article>
-        
-      
-  
-      <h3 id ="markdown"><i class="fas fa-tags category-tags-icon"></i></i> markdown</h3>
-      <a name="markdown"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/escaperoom/markdown/2022/10/09/programdesign.html">Program Design</a>  • Oct 9, 2022</p>
-        </article>
-        
-      
-  
-      <h3 id ="scrum"><i class="fas fa-tags category-tags-icon"></i></i> scrum</h3>
-      <a name="scrum"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="/escaperoom/scrum/2022/09/25/scrumprocess.html">Scrum Process Outline and Team Project</a>  • Sep 25, 2022</p>
-        </article>
-        
-      
-  
-
-
-
-
+  <div class="right" style="background-color:#3d413e;">
+    <h2>Learn More!</h2>
+    <p>Happy Searching! </p>
+  </div>
 </div>
+
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.button {
+  background-color: #faf1f1;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="https://kayleehou.github.io/escaperoom/2022/11/02/mcuhome.html" class="button">Click to Return Home</a>
+
+</body>
+</html>
+
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/escaperoom/"></data>

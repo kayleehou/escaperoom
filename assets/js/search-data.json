@@ -95,9 +95,6 @@
   
 
   
-  
-
-  
 
   
   
@@ -108,13 +105,18 @@
   
 
   
+
+  
+  
+
+  
   
 
   
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nighthawkcoders.github.io/escaperoom/robots.txt",
