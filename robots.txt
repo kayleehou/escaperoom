@@ -1,1 +1,1 @@
-Sitemap: https://nighthawkcoders.github.io/mcu/sitemap.xml
+Sitemap: https://nighthawkcoders.github.io/escaperoom/sitemap.xml
