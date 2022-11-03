@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Mcuhome",
-            "content": ". . Click for Search Bar",
+            "title": "MCU Project Home",
+            "content": ". . CSS Buttons . Link Button .",
             "url": "https://nighthawkcoders.github.io/escaperoom/2022/11/02/mcuhome.html",
             "relUrl": "/2022/11/02/mcuhome.html",
             "date": " • Nov 2, 2022"
@@ -82,6 +82,17 @@
   
 
   
+      ,"page2": {
+          "title": "Frontend",
+          "content": "Submenu .",
+          "url": "https://nighthawkcoders.github.io/escaperoom/_pages/frontend.html",
+          "relUrl": "/_pages/frontend.html",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -92,6 +103,17 @@
   
 
   
+      ,"page7": {
+          "title": "Searchbar",
+          "content": ". &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD Search . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . ======= Marvel Searchbar . Start to type for a specific Marvel comic or character inside the search bar to &quot;filter&quot; the search options. . . &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; fde83a653b5db66898fd278d804698283293e8c4 Menu . Iron Man | Spider Man | Thor | Loki | Black Widow | Scarlet Witch | Dr. Strange | Ant Man | . Learn More! . Over here we&#39;ll share any comics with that character or comics similar to the one you searched. . .",
+          "url": "https://nighthawkcoders.github.io/escaperoom/searchbar",
+          "relUrl": "/searchbar",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -103,7 +125,7 @@
   
 
   
-      ,"page10": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nighthawkcoders.github.io/escaperoom/robots.txt",
