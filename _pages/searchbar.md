@@ -72,7 +72,7 @@ body {
 <p>Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 =======
 
-<h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Searchbar</h1>
+<h1 style="font-family:'Courier New'; text-align:center; font-size: 50px">Marvel Search Bar</h1>
 <p style="font-family:'Courier New'; text-align:center; font-size: 18px">Start to type for a specific Marvel comic or character inside the search bar to "filter" the search options.</p>
 
 
@@ -90,7 +90,6 @@ img {
 
 <<<<<<< HEAD
 =======
-<img src="https://github.com/kayleehou/escaperoom/blob/master/images/Iron_Man_Vol_6_1_Brooks_Variant_Textless.webp?raw=true" width="250" height="500" />
 
 </body>
 
@@ -113,9 +112,9 @@ img {
     </ul>
   </div>
   
-  <div class="right" style="background-color:#3d9c5c;">
+  <div class="right" style="background-color:#4f5359;">
     <h2>Learn More!</h2>
-    <p>Over here we'll share any comics with that character or comics similar to the one you searched. </p>
+    <p>Happy Searching! </p>
   </div>
 </div>
 
