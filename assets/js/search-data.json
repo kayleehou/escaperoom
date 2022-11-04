@@ -98,8 +98,6 @@
   
 
   
-
-  
   
 
   
@@ -116,7 +114,7 @@
   
 
   
-      ,"page12": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://nighthawkcoders.github.io/escaperoom/robots.txt",
